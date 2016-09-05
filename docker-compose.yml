@@ -1,0 +1,10 @@
+---
+
+notebook:
+  image: "jupyter/all-spark-notebook"
+  volumes:
+    - "./test_1:/test_1"
+    - "./train_1:/train_1"
+    - "./work:/home/jovyan/work"
+  ports:
+    - "8888:8888"
