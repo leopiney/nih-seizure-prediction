@@ -1,5 +1,7 @@
 ---
 
+# On the volumes section, set the path to you test and training
+# paths.
 notebook:
   image: "jupyter/all-spark-notebook"
   volumes:
